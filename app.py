@@ -75,3 +75,4 @@ async def predict(file: UploadFile = File(...)):
 
 # To run the app, use the following command in your terminal:
 # uvicorn app:app --reload
+# use this command in your terminal to post image to the server curl -X POST http://127.0.0.1:8000/predict \  -F "file=@image_name.jpg"
